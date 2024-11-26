@@ -79,11 +79,11 @@ public class BankAccount {
         return new BankAccount();
     }
     
-    public static ForWithoutBallance(String number, String holder) {
+    public static BankAccount ForWithoutBalance(String number, String holder) {
         return new BankAccount(number, holder);
     }
 
-    public static ForFullData(String number, String holder, double balance) {
+    public static BankAccount ForFullData(String number, String holder, double balance) {
         return new BankAccount(number, holder, balance);
     }
 }
