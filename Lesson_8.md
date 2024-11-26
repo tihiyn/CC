@@ -75,7 +75,7 @@ public class BankAccount {
         this.balance = balance;
     }
     
-    public static ForEmptyData() {
+    public static BankAccount ForEmptyData() {
         return new BankAccount();
     }
     
